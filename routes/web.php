@@ -13,7 +13,7 @@
 
 Route::group([
         'prefix' => config('docsify.route'),
-        'namespace' => '\\Mdebuf\\Docsify\\Http\Controllers',
+        'namespace' => '\\Theduman\\Docsify\\Http\Controllers',
     ], function () {
 
 	Route::get('/', 'DocsifyController@index')->name('docs.index');

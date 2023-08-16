@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdebuf\Docsify\Http\Controllers;
+namespace Theduman\Docsify\Http\Controllers;
 
 use Log;
 use Illuminate\Http\Request;

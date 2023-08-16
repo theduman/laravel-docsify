@@ -1,6 +1,6 @@
 <?php
 
-namespace Mdebuf\Docsify;
+namespace Theduman\Docsify;
 
 use Illuminate\Support\ServiceProvider;
 

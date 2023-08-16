@@ -1,14 +1,14 @@
 {
-    "name": "mdebuf/laravel-docsify",
+    "name": "theduman/laravel-docsify",
     "description": "Add Docsify to Laravel",
     "authors": [
         {
-            "name": "Miguel De Buf",
-            "email": "miguel.debuf@orionsoftware.be"
+            "name": "Emre Duman",
+            "email": "emreduman16@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0"
+        "php": "^8.1"
     },
     "repositories": [
         {
@@ -21,22 +21,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "Mdebuf\\Docsify\\": "src/"
+            "Theduman\\Docsify\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mdebuf\\Docsify\\Tests\\": "tests/"
+            "Theduman\\Docsify\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mdebuf\\Docsify\\DocsifyServiceProvider"
+                "Theduman\\Docsify\\DocsifyServiceProvider"
             ]
         }
-    },
-    "require-dev": {
-        "orchestra/testbench": "~3.7"
     }
 }

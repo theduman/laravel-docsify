@@ -7,7 +7,7 @@ This package provides an easy way to add documentation to your project using doc
 You can install the package via Composer:
 
 ```bash
-composer require mdebuf/laravel-docsify
+composer require theduman/laravel-docsify
 ```
 
 The package will automatically register itself.
@@ -15,7 +15,7 @@ The package will automatically register itself.
 Optionally, publish its config file to config/docsify.php:
 
 ```bash
-php artisan vendor:publish --provider="Mdebuf\Docsify\DocsifyServiceProvider"
+php artisan vendor:publish --provider="Theduman\Docsify\DocsifyServiceProvider"
 ```
 
 ## Documentation
