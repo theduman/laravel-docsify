@@ -1,6 +1,7 @@
 {
     "name": "theduman/laravel-docsify",
     "description": "Add Docsify to Laravel",
+    "version": "1.0",
     "authors": [
         {
             "name": "Emre Duman",
